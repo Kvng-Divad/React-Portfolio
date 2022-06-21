@@ -1,0 +1,32 @@
+.contact-form{
+    padding: 4rem 0;
+}
+.form{
+    display: flex;
+    background: var(--bg-color-black-light);
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin:auto;
+    max-width: 750px;
+}
+label{
+    color:var(--white-text);
+    margin-bottom: .5rem;
+}
+form input, form textarea{
+    margin-bottom: 1rem;
+    padding: .75rem 1rem;
+    font-size: 1rem;
+    background: var(--bg-color-black);
+    border: 1px solid var(--bg-color-black-alt) ;
+    color: var(--white-text);
+}
+form input:hover, form textarea:hover,
+form input:focus, form textarea:focus{
+    border: 1px solid var(--white-text) ;
+    box-shadow: var(--box-shadow);
+}
+form .btn{
+    max-width: 50% ;
+    margin: auto;
+}

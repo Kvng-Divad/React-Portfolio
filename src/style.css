@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Kanit:wght@400;500;600;700;800;900&family=Lobster&family=Merriweather:wght@400;700;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+:root{
+  --bg-color-black:#000;
+  --bg-color-black-light:rgba(9, 9, 9, 0.848);
+  --bg-color-black-alt:rgba(3, 3, 3, 0.805);
+  --body-color:#000;
+  --skin-color:#333399;  
+  --skin-color2: #ff00cc ;
+  --skin-color3: #666;
+  --skin-color4:linear-gradient(to right, #333399, #ff00cc);
+
+  --white-text:#fff;
+  --dark-text:#222;
+  --box-shadow: 0 .5rem 1.5rem rgba(256,256,256,.3);
+
+  --font-medium: 500;
+  --font-semibold:600;
+  --font-bold:800;
+  --font-E-bold:900;
+
+  --bdy-font-family: "kanit" , sans-serif;
+  --bdy-font-family-alt: "poppins" , sans-serif;
+  --bdy-font-family-alt2: "Merriweather" , sans-serif;
+  --bdy-font-family-alt3: 'lobster', cursive;
+  --bdy-font-family-alt4: 'clicker script', cursive;
+  --font-size-bggr:3rem;
+  --font-size-bg: 2.25rem;
+  --font-size-m: 1.5rem;
+  --font-size-nr: 1rem;
+  --font-size-sm: .95rem;
+  --font-size-smlr: .813rem;
+  --h1-size: 1.5rem;
+  --h2-size: 1.25rem;
+  --h3-size: 1rem;
+  --header-height: 3.5rem;
+}
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--bdy-font-family);
+  font-size: 16px;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-size: var(--font-size-nr);
+  background: var(--bg-color-black) ;
+  color: var(--white-text);
+  transition: all .3s ease;
+}
+
+::before, ::after
+{
+    box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+input,button{
+  font-family: var(--bdy-font-family);
+  outline: none;
+  border: none;
+}
+
+/* reuseable */
+.btn{
+  padding: .75rem 2rem;
+  font-size: var(--font-size-nr);
+  font-weight: var(--font-semibold);
+  background-color: var(--skin-color);
+  text-transform: uppercase;
+  color: var(--white-text);
+  border: 1px solid var(--white-text);
+  cursor: pointer;
+}
+.btn:hover{
+  background:transparent ;
+  color: var(--white-text);
+  transition: .3s;
+}
+.btn-alt{
+  background-color: var(--skin-color2);
+  color: var(--white-text);
+}
+.btn-alt:hover{
+  opacity: .5;
+  transition: .3s;
+}
+
+
+/* reuseable */

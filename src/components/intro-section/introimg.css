@@ -1,0 +1,42 @@
+.intro{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.intro::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: #000;
+    opacity: .5;
+}
+.intro-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position:center ;
+    object-fit: cover;
+}
+.heading{
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.heading p{
+    font-size: 1.25rem;
+    font-weight: var(--font-semibold);
+    text-transform: capitalize;
+}
+.heading h1{
+    font-size: var(--font-size-bg);
+    font-weight: var(--font-E-bold);
+    padding: .75rem 0 .5rem;
+    text-transform: uppercase;
+}
+
+
